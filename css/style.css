@@ -1,0 +1,153 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+     font-family: "Roboto";
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+html {
+     margin: 0px;
+     padding: 0px;
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+nav ul {
+     display: flex;
+     justify-content: flex-end;
+}
+
+nav ul {
+     width: 100%;
+}
+
+nav ul li {
+     padding: 1%;
+     list-style: none;
+}
+
+html {
+     background-image: url(../header.jpeg);
+     background-size: 100%;
+     background-repeat: no-repeat;
+     height: 600px
+}
+
+.main {
+     padding: 0px 20px 30px 60px;
+     width: 50%;
+}
+
+.main h1 {
+     font-size: 95px;
+}
+
+.main ul {
+     display: flex;
+}
+
+.main ul li {
+     width: 20%;
+     list-style: none;
+}
+
+.main input {
+     float: left;
+     width: 80%;
+     height: 50px;
+}
+
+.main button { 
+     width: 20%;
+}
+
+.aboutUs {
+     background-image: url(../pie.jpeg);
+     height: 682px;
+     padding: 2% 10% 0% 40%;
+     background-repeat: no-repeat;
+     background-size: 100%;
+
+}
+
+.aboutUs h2 {
+     font-size: 75px;
+}
+
+.aboutUs p {
+     font-size: 20px;
+     font-weight: bold;
+}
+
+button {
+     color: white;
+     background: orange;
+     border-radius: 5px;
+     height: 50px
+}
+
+.specialtyCuisine {
+     text-align: center;
+     background: rgb(243, 246, 247);
+     padding-top: 2%;
+}
+
+.specialtyCuisine ul {
+     display: flex;
+     justify-content: center;
+}
+
+.specialtyCuisine ul li {
+     width: 5%;
+     list-style: none;
+}
+
+section img {
+     width: 20%;
+     margin: 1%;
+}
+
+.specialtyCuisine h2 {
+     font-size: 50px;
+}
+
+
+
+.specialtyCuisine span {
+     color: orange;
+}
+
+ul li a {
+     text-decoration: none;
+     color: black;
+}
+ul li a:hover {
+     color: orange;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
